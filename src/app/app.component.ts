@@ -50,7 +50,7 @@ export class AppComponent {
           };
     this.http
       .post(
-        'https://face-api-rm9999.cognitiveservices.azure.com/face/v1.0/detect?returnFaceAttributes=age,gender,headPose,smile,facialHair,glasses,emotion,hair,makeup,occlusion,accessories,blur,exposure,noise&returnFaceId=false&returnFaceLandmarks=true&language=en"',
+        'https://face-api-rm999.cognitiveservices.azure.com/face/v1.0/detect?returnFaceAttributes=age,gender,headPose,smile,facialHair,glasses,emotion,hair,makeup,occlusion,accessories,blur,exposure,noise&returnFaceId=false&returnFaceLandmarks=true&language=en"',
         data,
         httpOptions
       )
