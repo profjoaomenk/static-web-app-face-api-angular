@@ -45,12 +45,12 @@ export class AppComponent {
           const httpOptions = {
             headers: new HttpHeaders({
               'Content-Type': contentType,
-              'Ocp-Apim-Subscription-Key': 'd2b7643629394fe7ac3ea26dc7b6b920'
+              'Ocp-Apim-Subscription-Key': '51bd6ebb57504dea8bf813821054c093'
             })
           };
     this.http
       .post(
-        'https://face-api-rm999.cognitiveservices.azure.com/face/v1.0/detect?returnFaceAttributes=age,gender,headPose,smile,facialHair,glasses,emotion,hair,makeup,occlusion,accessories,blur,exposure,noise&returnFaceId=false&returnFaceLandmarks=true&language=en"',
+        'https://face-api-rm9999.cognitiveservices.azure.com/face/v1.0/detect?returnFaceAttributes=age,gender,headPose,smile,facialHair,glasses,emotion,hair,makeup,occlusion,accessories,blur,exposure,noise&returnFaceId=false&returnFaceLandmarks=true&language=en"',
         data,
         httpOptions
       )
